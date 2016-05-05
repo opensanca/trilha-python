@@ -72,3 +72,4 @@ Session.vim
 #
 .ipynb_checkpoints/
 .venv
+*.html
