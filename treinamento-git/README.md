@@ -32,3 +32,11 @@ Aqui fica todo o material e treinamento prático referente ao Git e Github, sint
 ## Guide MarkDown [en-us]:
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* 
+## Dúvidas & Questions
+Caso tenha alguma dúvida, sugestão ou reclamação, favor abrir uma [issue](https://github.com/opensanca/python-intro/issues/new) e enviar seu feedback.
+
+If you have any questions, suggestions or complaints, please open a [issue](https://github.com/opensanca/python-intro/issues/new) and send your feedback.
+
+##License
+MIT © [Opensanca](http://www.opensanca.com.br)
