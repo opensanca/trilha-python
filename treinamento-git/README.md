@@ -34,6 +34,8 @@ Aqui fica todo o material e treinamento prático referente ao Git e Github, sint
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Ferramentas / Tools
+* [Git for Windows](https://git-for-windows.github.io/)
+* [Source Tree](https://www.atlassian.com/software/sourcetree)
 * [Markable - Editor de Markdown online](https://markable.in/)
 * [Dillinger - Editor de Markdown online](http://dillinger.io/)
 * [StackEdit - Editor de Markdown online](https://stackedit.io/)
