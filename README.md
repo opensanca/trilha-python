@@ -2,7 +2,7 @@
 
 # Trilha Python Developer
 
-## Objetivo:
+### Objetivo:
  Apresentar a linguagem Python e suas ferramentas em quatro cursos que ensinam desde a sintaxe básica da linguagem até orientação a objetos na prática com frameworks de interface gráfica e web. 
 
 ### Público-alvo:
@@ -17,7 +17,7 @@ Programadores iniciantes de Python que conhecem os conceitos de orientação a o
 ### Carga horária total:   
 Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos) 
 
-## Data de realização da Trilha: 
+### Data de realização da Trilha: 
 * Toda terça e quinta das 19h30 ás 22h30 com 20min de intervalo. 
 * Inicio: 17 de maio 
 * Término: 28 de Julho  
@@ -30,16 +30,14 @@ Para aproveitar todo o potencial deste curso é preciso saber programar em qualq
 
 #### Módulo 1 - Introdução à linguagem (6 aulas / 18h)
 
-Neste curso será ensinado tudo o que você precisa saber para começar a programar em Python.
-
+Neste curso será ensinado tudo o que você precisa saber para começar a programar em Python. 
 Conteúdo: expressões, atribuição, estruturas básicas de controle (if, while, for), funções, tipos de dados básicos (números, str, sequências e dicionários), arquivos, virtualenv e pip.
 
-* Aula 1: instalação do python, tipos de dados básicos, expressões aritméticas, estruturas básicas de controle
-* Aula 2: estruturas de dados básicas e iteração
-* Aula 3: estruturas de dados e iteraçao + criando funções
-* Aula 4: módulos e pacotes, virtualenv, instalação de bibliotecas via pip e estilo de código e exceções
-* Aula 5: á definir
-* Aula 6: á definir
+* Aula 1: instalação do python, ambiente virtual, instalação e uso de bibliotecas e introdução a estruturas de dados do Python
+* Aula 2: tipos básicos: números, string, sequências (strings, listas e tuplas) e estruturas de controle de fluxo
+* Aula 3: conjuntos e mapeamento
+* Aula 4: funções e arquivos
+* Aula 5:	módulos e testes automáticos
 
 #### Módulo 2 - Orientação a objetos e frameworks (6 aulas / 18h)
 
@@ -73,7 +71,7 @@ Neste curso será ensinado como criar aplicações web utilizando o framework fu
 * Aula 3: Webscraping com scrapy
 * Aula 4: Programação para desktop com tkinter
 
-### Módulo I | Wipi( 17/05 á 02/06)
+###  Doing (17/05 á 02/06) | Módulo I 
 
 - *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
 - *Tipos de dados básicos*: números, strings, sequências (listas, tuplas e conjuntos) e dicionários
