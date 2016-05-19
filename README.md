@@ -1,3 +1,5 @@
+![Python Logo](http://2.bp.blogspot.com/-81s0cnxpZZI/VYsQGlAnwFI/AAAAAAAAABs/ayPV3L-kWD0/s1600/python_logo.png)
+
 # Material do Curso "Introdução à linguagem Python"
 
 Este curso tem como objetivo ensinar tudo o que você precisa saber para começar a programar em Python.
