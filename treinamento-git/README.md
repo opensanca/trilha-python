@@ -20,7 +20,7 @@ Aqui fica todo o material e treinamento prático referente ao Git e Github, sint
 * [Palestra - Git Github e o mercado de trabalho para Iniciantes com Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
 * [Video - Curso de Git e Github para Iniciantes via RBTech](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)
 * [Video -  Curso de Git e Github para Iniciantes via Willian Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
-* [Video -  Curso de Git e Github para Iniciantes via WebSchool.io](https://www.youtube.com/watch?v=TReVFOxhh7E)
+* [Curso de Git e Github para Iniciantes via WebSchool.io](https://www.youtube.com/watch?v=TReVFOxhh7E&index=1&list=PL77JVjKTJT2h4aACrIx1ECmr8h9esjh16)
 * [Palestra -  Danilo Bellini aborda sobre Introdução ao Git e Github](https://www.youtube.com/watch?v=Fc_UC5SywuU) 
 * [Video - Introdução ao Git com Rodrigo Branas](https://www.youtube.com/watch?v=C18qzn7j4SM&list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1)
 
