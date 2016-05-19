@@ -1,6 +1,6 @@
 ![Git logo official](http://mariovalney.com/wp-content/uploads/2014/03/Commitando-Sobre-Git.jpg)
 
-# Treinamento Git
+# Treinamento Git | Trilha Python Developer
 
 Aqui fica todo o material e treinamento prático referente ao Git e Github, sintam-se a vontade para subir material e postar dúvidas por aqui.
 
