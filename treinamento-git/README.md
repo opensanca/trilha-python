@@ -4,10 +4,18 @@
 
 Aqui fica todo o material e treinamento prático referente ao Git e Github, sintam-se a vontade para subir material e postar dúvidas por aqui.
 
-##  Material em pt-br: 
+##  Documentação e Links[pt-br]: 
 * [Pro Git](https://git-scm.com/book/pt-br/v1)
 * [Guia itexto - Essencial Usando Git](https://s3-sa-east-1.amazonaws.com/guiasitexto/guia-itexto-git-v01.pdf)
 * [Git Flow](http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
+
+### Videos e Cursos [pr-br]
+* [Palestra - Git Github e o mercado de trabalho para Iniciantes com Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+* [Video - Curso de Git e Github para Iniciantes via RBTech](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)
+* [Video -  Curso de Git e Github para Iniciantes via Willian Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
+* [Video -  Curso de Git e Github para Iniciantes via WebSchool.io](https://www.youtube.com/watch?v=TReVFOxhh7E)
+* [Palestra -  Danilo Bellini aborda sobre Introdução ao Git e Github](https://www.youtube.com/watch?v=Fc_UC5SywuU) 
+* [Video - Introdução ao Git com Rodrigo Branas](https://www.youtube.com/watch?v=C18qzn7j4SM&list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1)
 
 ## Material em en-us:
 * [Pro Git](https://git-scm.com/book/en/v2)
