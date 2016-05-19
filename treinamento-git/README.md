@@ -34,10 +34,10 @@ Aqui fica todo o material e treinamento prático referente ao Git e Github, sint
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Ferramentas/ Tools
-*[Markable - Editor de Markdown online](https://markable.in/)
-*[Dillinger - Editor de Markdown online](http://dillinger.io/)
-*[StackEdit - Editor de Markdown online](https://stackedit.io/)
-*[Haroopad - Editor de Markdown online](http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/)
+* [Markable - Editor de Markdown online](https://markable.in/)
+* [Dillinger - Editor de Markdown online](http://dillinger.io/)
+* [StackEdit - Editor de Markdown online](https://stackedit.io/)
+* [Haroopad - Editor de Markdown online](http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/)
 
 ## Dúvidas & Questions
 Caso tenha alguma dúvida, sugestão ou reclamação, favor abrir uma [issue](https://github.com/opensanca/python-intro/issues/new) e enviar seu feedback.
