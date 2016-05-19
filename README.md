@@ -1,6 +1,6 @@
 ![Python Logo](http://morganlinton.com/wp-content/uploads/2015/04/python-programming.png)
 
-# Trilha Python Developer
+# Trilha Python | Opensanca Developer
 
 ### Objetivo:
  Apresentar a linguagem Python e suas ferramentas em quatro cursos que ensinam desde a sintaxe básica da linguagem até orientação a objetos na prática com frameworks de interface gráfica e web. 
