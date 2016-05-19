@@ -18,8 +18,7 @@ Aqui fica todo o material e treinamento prático referente ao Git e Github, sint
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Como instalar Git no Windows
-#### Segue material de referencias para instalar e usar Git/Github no Windows. 
+## Como instalar e usar Git no Windows - Referencias
 * [Utilizando o GIT via command line Windows](http://imasters.com.br/desenvolvimento/utilizando-o-git-via-command-line-windows/?trace=1519021197&source=single)
 * [Usando Git para Windows](http://blog.dmatoso.com/2011/09/git-no-windows-github/)
 * [Como usar Git no Windows](http://mauriciodeamorim.com.br/2009/01/06/como-usar-git-no-windows/)
