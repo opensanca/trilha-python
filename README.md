@@ -1,4 +1,4 @@
-![Python Logo](http://2.bp.blogspot.com/-81s0cnxpZZI/VYsQGlAnwFI/AAAAAAAAABs/ayPV3L-kWD0/s1600/python_logo.png)
+![Python Logo](http://morganlinton.com/wp-content/uploads/2015/04/python-programming.png)
 
 # Material do Curso "Introdução à linguagem Python"
 
