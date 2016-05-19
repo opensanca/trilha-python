@@ -33,7 +33,7 @@ Aqui fica todo o material e treinamento prático referente ao Git e Github, sint
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Ferramentas/ Tools
+## Ferramentas / Tools
 * [Markable - Editor de Markdown online](https://markable.in/)
 * [Dillinger - Editor de Markdown online](http://dillinger.io/)
 * [StackEdit - Editor de Markdown online](https://stackedit.io/)
