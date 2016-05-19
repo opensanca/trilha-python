@@ -1,4 +1,4 @@
-![Git logo official](https://git-scm.com/images/logo@2x.png)
+![Git logo official](http://mariovalney.com/wp-content/uploads/2014/03/Commitando-Sobre-Git.jpg)
 
 # Treinamento Git
 
