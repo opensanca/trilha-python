@@ -31,8 +31,8 @@ Para aproveitar todo o potencial deste curso é preciso saber programar em qualq
 * Pesquise nas issues abertas e fechadas, se a mesma dúvida já foi postada;
 * Se não foi, crie uma nova issue, coloque um título que tenha a ver com a sua dúvida, e descreva-a com o maior nível de detalhes possíveis, para que possamos te ajudar :)
 
-### Chat
-Você pode tirar dúvidas pelo chat aqui no repositorio da trilha basta clicar na imagem do Gitter e mandar súa dúvida, sugestão e etc[![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+### Chat[![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Você pode tirar dúvidas pelo chat aqui no repositorio da trilha basta clicar na imagem do Gitter e mandar sua dúvida, sugestão e etc
 
 ### Ementa:   
 
