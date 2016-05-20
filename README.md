@@ -26,6 +26,11 @@ Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos)
 
 Para aproveitar todo o potencial deste curso é preciso saber programar em qualquer linguagem como C, Java, PHP e etc...
 
+### Como tirar dúvidas?
+* Acesse a página/aba com menção á [issues](https://github.com/opensanca/trilha-python/issues/new);
+* Pesquise nas issues abertas e fechadas, se a mesma dúvida já foi postada;
+* Se não foi, crie uma nova issue, coloque um título que tenha a ver com a sua dúvida, e descreva-a com o maior nível de detalhes possíveis, para que possamos te ajudar :)
+
 ### Ementa:   
 
 #### Módulo 1 - Introdução à linguagem (6 aulas / 18h)
