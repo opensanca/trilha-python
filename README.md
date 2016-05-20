@@ -73,7 +73,7 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - Aula 4: Programação para desktop com tkinter
 
 
-## Licença /  License
+## License
 
-[MIT | Attribution-NonCommercial-ShareAlike 4.0] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) © Opensanca
+[MIT | Attribution-NonCommercial-ShareAlike 4.0] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) © Opensanca 2016
 
