@@ -47,10 +47,29 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - *Testes*: testes unitários com o módulo unittest, asserções e mock
 
 ##### Wipi (07/06 á 23/06) | Módulo II 
+- Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes 
+- Aula 2: herança, herança múltipla no Django e mixins
+- Aula 3: encapsulamento e polimorfismo
+- Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
+- Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
+- Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock
 
 ##### Wipi (28/06 á 14/07) | Módulo III 
+- Aula 1: Instalação do python e django, explicação do funcionamento do framework e hello world
+- Aula 2: modelos e integração com banco de dados, administração do django
+- Aula 3: function-based views, URLs e templates
+- Aula 4: class-based views e formulários
+- Aula 5: testes automáticos: conceitos, tipos de testes, asserções e mock
+- Aula 6: desenvolvimento do projeto e dúvidas
+- Aula 7: deploy no heroku, requirements
 
-###  Wipi (19/07 á 28/07) | Módulo IV 
+
+#####  Wipi (19/07 á 28/07) | Módulo IV 
+- Aula 1: introdução à aprendizado de máquina com Python
+- Aula 2: NoSQL com MongoDB e Python
+- Aula 3: Webscraping com scrapy
+- Aula 4: Programação para desktop com tkinter
+
 
 ## Licença
 
