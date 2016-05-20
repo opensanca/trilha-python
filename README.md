@@ -38,7 +38,7 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 
 ### Agenda:
 
-##### Doing (17/05 á 02/06) | Módulo I 
+##### Doing (17/05 á 02/06) | Módulo I [ver aulas](https://github.com/opensanca/trilha-python/tree/master/python-intro)
 
 - *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
 - *Tipos de dados básicos*: números, strings, sequências (listas, tuplas e conjuntos) e dicionários
