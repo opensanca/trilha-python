@@ -2,8 +2,6 @@
 
 # Trilha Python | Opensanca Developer
 
-[![Join the chat at https://gitter.im/opensanca/trilha-python](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ### Objetivo:
  Apresentar a linguagem Python e suas ferramentas em quatro cursos que ensinam desde a sintaxe básica da linguagem até orientação a objetos na prática com frameworks de interface gráfica e web. 
 
