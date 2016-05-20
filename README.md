@@ -36,7 +36,9 @@ Para aproveitar todo o potencial deste curso é preciso saber programar em qualq
 Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o Gitter que tem essa função por aqui, caso queira tirar uma dúvida na madrugada enroscou em algo mas ainda não teve retorno lá pelo nosso canal da [issues](https://github.com/opensanca/trilha-python/issues) pode recorrer ao Gitter também, só pedimos para manter uma issue registrada pois assim outras pessoas podem ver ou até complementar o que você está enfrentando, oka? Para entrar no nosso chat, basta clicar na imagem do Gitter e mandar ver no lero lero... :stuck_out_tongue_winking_eye:
 
 
-###  Doing (17/05 á 02/06) | Módulo I 
+### Agenda:
+
+##### Doing (17/05 á 02/06) | Módulo I 
 
 - *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
 - *Tipos de dados básicos*: números, strings, sequências (listas, tuplas e conjuntos) e dicionários
@@ -44,9 +46,9 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - *Arquivos*: leitura e escrita de arquivos e encoding.
 - *Testes*: testes unitários com o módulo unittest, asserções e mock
 
-###  Wipi (07/06 á 23/06) | Módulo II 
+##### Wipi (07/06 á 23/06) | Módulo II 
 
-###  Wipi (28/06 á 14/07) | Módulo III 
+##### Wipi (28/06 á 14/07) | Módulo III 
 
 ###  Wipi (19/07 á 28/07) | Módulo IV 
 
