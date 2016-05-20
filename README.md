@@ -32,7 +32,7 @@ Para aproveitar todo o potencial deste curso é preciso saber programar em qualq
 * Se não foi, crie uma nova issue, coloque um título que tenha a ver com a sua dúvida, e descreva-a com o maior nível de detalhes possíveis, para que possamos te ajudar :)
 
 ### Chat
-[![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Você pode tirar dúvidas pelo chat aqui no repositorio da trilha basta clicar na imagem do Gitter e mandar súa dúvida, sugestão e etc[![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### Ementa:   
 
