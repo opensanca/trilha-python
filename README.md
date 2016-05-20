@@ -73,6 +73,7 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - Aula 4: Programação para desktop com tkinter
 
 
-## Licença
+## Licença /  License
 
-O conteúdo deste projeto está sob licença [Attribution-NonCommercial-ShareAlike 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/), enquanto que todos os códigos-fontes estão licenciados sob a [MIT license](http://opensource.org/licenses/mit-license.php)
+[MIT | Attribution-NonCommercial-ShareAlike 4.0 © Opensanca] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) 
+
