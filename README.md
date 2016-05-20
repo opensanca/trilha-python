@@ -44,6 +44,12 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - *Arquivos*: leitura e escrita de arquivos e encoding.
 - *Testes*: testes unitários com o módulo unittest, asserções e mock
 
+###  Wipi (07/06 á 23/06) | Módulo II 
+
+###  Wipi (28/06 á 14/07) | Módulo III 
+
+###  Wipi (19/07 á 28/07) | Módulo IV 
+
 ## Licença
 
 O conteúdo deste projeto está sob licença [Attribution-NonCommercial-ShareAlike 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/), enquanto que todos os códigos-fontes estão licenciados sob a [MIT license](http://opensource.org/licenses/mit-license.php)
