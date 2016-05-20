@@ -75,5 +75,5 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 
 ## Licença /  License
 
-[MIT | Attribution-NonCommercial-ShareAlike 4.0]© Opensanca (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) 
+[MIT | Attribution-NonCommercial-ShareAlike 4.0] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) © Opensanca
 
