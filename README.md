@@ -13,6 +13,7 @@ Programadores iniciantes de Python que conhecem os conceitos de orientação a o
 * Orientação a objetos em Python (6 aulas / 16h) 
 * Desenvolvimento web com Django (6 aulas / 16h) 
 * Python na prática (4 aulas / aprox. 11h) 
+* [Ver Ementa completa](https://github.com/opensanca/trilha-python/blob/master/ementa.md)
 
 ### Carga horária total:   
 Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos) 
