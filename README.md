@@ -31,6 +31,9 @@ Para aproveitar todo o potencial deste curso é preciso saber programar em qualq
 * Pesquise nas issues abertas e fechadas, se a mesma dúvida já foi postada;
 * Se não foi, crie uma nova issue, coloque um título que tenha a ver com a sua dúvida, e descreva-a com o maior nível de detalhes possíveis, para que possamos te ajudar :)
 
+### Chat
+[![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ### Ementa:   
 
 #### Módulo 1 - Introdução à linguagem (6 aulas / 18h)
