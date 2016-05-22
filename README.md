@@ -13,6 +13,7 @@ Programadores iniciantes de Python que conhecem os conceitos de orientação a o
 * Orientação a objetos em Python (6 aulas / 16h) 
 * Desenvolvimento web com Django (6 aulas / 16h) 
 * Python na prática (4 aulas / aprox. 11h) 
+* [Ver Ementa completa](https://github.com/opensanca/trilha-python/blob/master/ementa.md)
 
 ### Carga horária total:   
 Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos) 
@@ -26,52 +27,18 @@ Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos)
 
 Para aproveitar todo o potencial deste curso é preciso saber programar em qualquer linguagem como C, Java, PHP e etc...
 
-### Ementa:   
+### Como tirar dúvidas?
+* Acesse a página/aba com menção á [issues](https://github.com/opensanca/trilha-python/issues/new);
+* Pesquise nas issues abertas e fechadas, se a mesma dúvida já foi postada;
+* Se não foi, crie uma nova issue, coloque um título que tenha a ver com a sua dúvida, e descreva-a com o maior nível de detalhes possíveis, para que possamos te ajudar :)
 
-#### Módulo 1 - Introdução à linguagem (6 aulas / 18h)
+### Chat [![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o Gitter que tem essa função por aqui, caso queira tirar uma dúvida na madrugada enroscou em algo mas ainda não teve retorno lá pelo nosso canal da [issues](https://github.com/opensanca/trilha-python/issues) pode recorrer ao Gitter também, só pedimos para manter uma issue registrada pois assim outras pessoas podem ver ou até complementar o que você está enfrentando, oka? Para entrar no nosso chat, basta clicar na imagem do Gitter e mandar ver no lero lero... :stuck_out_tongue_winking_eye:
 
-Neste curso será ensinado tudo o que você precisa saber para começar a programar em Python. 
-Conteúdo: expressões, atribuição, estruturas básicas de controle (if, while, for), funções, tipos de dados básicos (números, str, sequências e dicionários), arquivos, virtualenv e pip.
 
-* Aula 1: instalação do python, ambiente virtual, instalação e uso de bibliotecas e introdução a estruturas de dados do Python
-* Aula 2: tipos básicos: números, string, sequências (strings, listas e tuplas) e estruturas de controle de fluxo
-* Aula 3: conjuntos e mapeamento
-* Aula 4: funções e arquivos
-* Aula 5:	módulos e testes automáticos
+### Agenda:
 
-#### Módulo 2 - Orientação a objetos e frameworks (6 aulas / 18h)
-
-Neste curso serão abordados os conceitos de orientação a objetos no Python usando exemplos práticos da biblioteca padrão e do framework web Django. Conteúdo deste móduo aborda sobre a terminologia de orientação a objetos em Python, duck typing, herança, herança múltipla, sobrecarga de métodos e operadores, encapsulamento, polimorfismo, classes abstratas e protocolos (interfaces informais), testes automáticos.
-
-* Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes
-* Aula 2: herança, herança múltipla no Django e mixins
-* Aula 3: encapsulamento e polimorfismo
-* Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
-* Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
-* Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock 
-
-#### Módulo 3 - Desenvolvimento web com Django (6 aulas / 18h)
-
-Neste curso será ensinado como criar aplicações web utilizando o framework full-stack Django e como fazer deploy no Heroku.
-
-* Aula 1: Instalação do python e django, explicação do funcionamento do framework e hello world 
-* Aula 2: herança, herança múltipla no Django e mixins
-* Aula 3: encapsulamento e polimorfismo
-* Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
-* Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
-* Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock 
-* Aula 7: deploy no heroku, requirements
-
-#### Módulo 4 - Python na prática (4 aulas / 12h)
-
-Neste curso será ensinado como criar aplicações web utilizando o framework full-stack Django e como fazer deploy no Heroku.
-
-* Aula 1: introdução à aprendizado de máquina com Python
-* Aula 2: NoSQL com MongoDB e Python
-* Aula 3: Webscraping com scrapy
-* Aula 4: Programação para desktop com tkinter
-
-###  Doing (17/05 á 02/06) | Módulo I 
+##### Doing (17/05 á 02/06) | Módulo I [ver aulas](https://github.com/opensanca/trilha-python/tree/master/python-intro)
 
 - *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
 - *Tipos de dados básicos*: números, strings, sequências (listas, tuplas e conjuntos) e dicionários
@@ -79,6 +46,32 @@ Neste curso será ensinado como criar aplicações web utilizando o framework fu
 - *Arquivos*: leitura e escrita de arquivos e encoding.
 - *Testes*: testes unitários com o módulo unittest, asserções e mock
 
-## Licença
+##### Wipi (07/06 á 23/06) | Módulo II 
+- Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes 
+- Aula 2: herança, herança múltipla no Django e mixins
+- Aula 3: encapsulamento e polimorfismo
+- Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
+- Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
+- Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock
 
-O conteúdo deste projeto está sob licença [Attribution-NonCommercial-ShareAlike 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/), enquanto que todos os códigos-fontes estão licenciados sob a [MIT license](http://opensource.org/licenses/mit-license.php)
+##### Wipi (28/06 á 14/07) | Módulo III 
+- Aula 1: Instalação do python e django, explicação do funcionamento do framework e hello world
+- Aula 2: modelos e integração com banco de dados, administração do django
+- Aula 3: function-based views, URLs e templates
+- Aula 4: class-based views e formulários
+- Aula 5: testes automáticos: conceitos, tipos de testes, asserções e mock
+- Aula 6: desenvolvimento do projeto e dúvidas
+- Aula 7: deploy no heroku, requirements
+
+
+#####  Wipi (19/07 á 28/07) | Módulo IV 
+- Aula 1: introdução à aprendizado de máquina com Python
+- Aula 2: NoSQL com MongoDB e Python
+- Aula 3: Webscraping com scrapy
+- Aula 4: Programação para desktop com tkinter
+
+
+## License
+
+[MIT | Attribution-NonCommercial-ShareAlike 4.0] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) © Opensanca 2016
+
