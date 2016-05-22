@@ -1,12 +1,8 @@
-1 Write a function find_longest_word() that takes a list of words and returns the length of the longest one.
+1) Escreva uma função encontra_maior_palavra() que recebe uma string contendo uma frase ou texto e retorne a maior palavra e seu tamanho.
 
-2 A pangram is a sentence that contains all the letters of the English alphabet at least once, for example: The quick brown fox jumps over the lazy dog. Your task here is to write a function to check a sentence to see if it is a pangram or not. 
+2) Um pangrama é uma frase que contém todas as palavras do alfabeto pelo menos uma vez, por exemplo: "Juiz faz com que whisky de malte baixe logo preço de venda". Você deve escreve uma função que receba uma frase e verifica se ela é ou não um pangramas. 
 
-
-3 Represent a small bilingual lexicon as a Python dictionary in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"} and use it to translate your Christmas cards from English into Swedish. That is, write a function translate() that takes a list of English words and returns a list of Swedish words.
-
-
-4 In cryptography, a Caesar cipher is a very simple encryption techniques in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it to communicate with his generals. ROT-13 ("rotate by 13 places") is a widely used example of a Caesar cipher where the shift is 13. In Python, the key for ROT-13 may be represented by means of the following dictionary:
+3) Em criptografia uma Cifra de César é uma técnica simples de encriptação em que cada palavra de um texto é trocado por uma letra algumas posições distante seguindo o alfabeto. Por exemplo, com uma troca de 3, A seria trocado por D, B se tornaria E e assim adiante. ROT-13 ("rotacione por 13 casas") é um exemplo comum de cifra de César onde a troca é de 13. Em Python a chave do ROT-13 pode ser representada pelo seguinte dicionário:
 
 key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u', 
        'i':'v', 'j':'w', 'k':'x', 'l':'y', 'm':'z', 'n':'a', 'o':'b', 'p':'c', 
@@ -16,16 +12,13 @@ key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u',
        'O':'B', 'P':'C', 'Q':'D', 'R':'E', 'S':'F', 'T':'G', 'U':'H', 'V':'I', 
        'W':'J', 'X':'K', 'Y':'L', 'Z':'M'}
 
-5 Your task in this exercise is to implement an encoder/decoder of ROT-13. Once you're done, you will be able to read the following secret message:
+Sua tarefa é implementar funções que encriptem e decriptem mensagens ROT-13. Quando terminar você poderá ler a seguinte frase secreta:
 
-   Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
+'Ubwr ru srfgn yn ab zrh NC, cbqr ncnerpre... inv ebyne ohaqn n yryr.'
 
-Note that since English has 26 characters, your ROT-13 program will be able to both encode and decode texts written in English.
- 
-Write a program that maps a list of words into a list of integers representing the lengths of the correponding words. Write it in three different ways: 1) using a for-loop and 2) using list comprehensions.
+4) Escreva uma função que mapeie uma lista de palavras em uma lista de inteiros o contendo o tamanho das palavras correspondentes. Bônus: escreva duas versões da função, uma usando o loop for e outra usando list comprehension.
 
-
-6 The International Civil Aviation Organization (ICAO) alphabet assigns code words to the letters of the English alphabet acrophonically (Alfa for A, Bravo for B, etc.) so that critical combinations of letters (and numbers) can be pronounced and understood by those who transmit and receive voice messages by radio or telephone regardless of their native language, especially when the safety of navigation or persons is essential. Here is a Python dictionary covering one version of the ICAO alphabet:
+5) O alfabeto fonético da OTAN define palavras-chave para letras do alfabeto por meio de um princípio acrofônico (Alfa para A, Bravo para B etc.) para que combinações de letras e números sejam fáceis de entender em transmissões de voz por rádio ou telefone independente de seu idioma. A seguir consta um dicionário Python com uma versão do alfabeto fonético:
 
 d = {'a':'alfa', 'b':'bravo', 'c':'charlie', 'd':'delta', 'e':'echo', 'f':'foxtrot',
      'g':'golf', 'h':'hotel', 'i':'india', 'j':'juliett', 'k':'kilo', 'l':'lima',
@@ -33,13 +26,13 @@ d = {'a':'alfa', 'b':'bravo', 'c':'charlie', 'd':'delta', 'e':'echo', 'f':'foxtr
      's':'sierra', 't':'tango', 'u':'uniform', 'v':'victor', 'w':'whiskey', 
      'x':'x-ray', 'y':'yankee', 'z':'zulu'}
 
-7 Your task in this exercise is to write a procedure speak_ICAO() able to translate any text (i.e. any string) into spoken ICAO words. You need to import at least two libraries: os and time. On a mac, you have access to the system TTS (Text-To-Speech) as follows: os.system('say ' + msg), where msg is the string to be spoken. (Under UNIX/Linux and Windows, something similar might exist.) Apart from the text to be spoken, your procedure also needs to accept two additional parameters: a float indicating the length of the pause between each spoken ICAO word, and a float indicating the length of the pause between each word spoken.
+Escreva uma função que receba uma função que traduza uma string em palavras do alfabeto fonético da OTAN.
 
 
-8 Crie uma função `troll(frase)` que, dado uma frase, altere a ordem dos caracteres de algumas palavras aleatórias (use a biblioteca `random`). Por exemplo a frase "Hoje é festa lá no meu AP" poderia ficar "Hoje é tsafe lá no eum PA".
+6) Crie uma função `troll(frase)` que, dado uma frase, altere a ordem dos caracteres de algumas palavras aleatórias (use a biblioteca `random`). Por exemplo a frase "Hoje é festa lá no meu AP" poderia ficar "Hoje é tsafe lá no eum PA".
 
 
-9 Escreva uma função que, dado um texto, adicione pontos nos finais de linhas caso necessário. Por exemplo o seguinte texto:
+7) Escreva uma função que, dado um texto, adicione pontos nos finais de linhas caso necessário. Por exemplo o seguinte texto:
 
 Estou sem criatividade para criar textos
 Portanto vou encher linguiça
@@ -51,4 +44,4 @@ Estou sem criatividade para criar textos.
 Vou encher um pouco de linguiça.
 Puts... deveria ter usado o gerador de lero-lero.
 
-10 A hapax legomenon (often abbreviated to hapax) is a word which occurs only once in either the written record of a language, the works of an author, or in a single text. Define a function that given the file name of a text will return all its hapaxes. Make sure your program ignores capitalization.
+8) Um hapáx legómenon (abreviado para hapáx) é uma palevra que aparece somente uma vez em um contexto, seja no trabalho de um autor ou em um único texto. Crie uma função que dado o nome de um arquivo de texto retorna todos seus "hapáxes". Não esqueça de fazer com que seu programa ignore caixa alta.
