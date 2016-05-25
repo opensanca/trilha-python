@@ -45,3 +45,5 @@ Vou encher um pouco de linguiça.
 Puts... deveria ter usado o gerador de lero-lero.
 
 8) Um hapáx legómenon (abreviado para hapáx) é uma palevra que aparece somente uma vez em um contexto, seja no trabalho de um autor ou em um único texto. Crie uma função que dado o nome de um arquivo de texto retorna todos seus "hapáxes". Não esqueça de fazer com que seu programa ignore caixa alta.
+
+9) Crie uma função que receba uma lista e encontre o n-ésimo elemento fornecido: def find(lista, elem, n). Bônus: faça que funcione tanto para lista quanto para string.
