@@ -10,7 +10,7 @@ def fib(n):
     print()
 
     
-def fib2(n):   # return Fibonacci series up to n
+def fib2(n):
     """ Retorna uma lista contendo os números da sequência de Fibonacci até n """
     result = []
     a, b = 0, 1
