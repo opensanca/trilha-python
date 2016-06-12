@@ -3,28 +3,26 @@
 # Trilha Python | Opensanca Developer
 
 ### Objetivo:
- Apresentar a linguagem Python e suas ferramentas em quatro cursos que ensinam desde a sintaxe básica da linguagem até orientação a objetos na prática com frameworks de interface gráfica e web. 
+ Apresentar a linguagem Python e suas ferramentas em quatro cursos que ensinam desde a sintaxe básica da linguagem até orientação a objetos na prática com frameworks de interface gráfica e web.
 
 ### Público-alvo:
-Programadores iniciantes de Python que conhecem os conceitos de orientação a objetos 
+Programadores iniciantes de Python que saibam programar e conheçam os conceitos de orientação a objetos
 
-### Grade: 
-* Introdução à Python (6 aulas / 16h) 
-* Orientação a objetos em Python (6 aulas / 16h) 
-* Desenvolvimento web com Django (6 aulas / 16h) 
-* Python na prática (4 aulas / aprox. 11h) 
-* [Ver Ementa completa](https://github.com/opensanca/trilha-python/blob/master/ementa.md)
+### Grade:
+* [Introdução à Python](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/ementa.md) (6 aulas / 16h)
+* [Orientação a objetos em Python](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/ementa.md) (6 aulas / 16h)
+* Desenvolvimento web com Django (6 aulas / 16h)
+* Python na prática (3 aulas / 8h)
 
-### Carga horária total:   
-Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos) 
+### Carga horária total:
+Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos)
 
-### Data de realização da Trilha: 
-* Toda terça e quinta das 19h30 ás 22h30 com 20min de intervalo. 
-* Inicio: 17 de maio 
-* Término: 28 de Julho  
+### Data de realização da Trilha:
+* Toda terça e quinta das 19h30 ás 22h30 com 20min de intervalo.
+* Inicio: 17 de maio
+* Término: 28 de Julho
 
 ### Pré-requisitos
-
 Para aproveitar todo o potencial deste curso é preciso saber programar em qualquer linguagem como C, Java, PHP e etc...
 
 ### Como tirar dúvidas?
@@ -38,7 +36,7 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 
 ### Agenda:
 
-##### Doing (17/05 á 02/06) | Módulo I [ver aulas](https://github.com/opensanca/trilha-python/tree/master/python-intro)
+##### ~Done~ (17/05 á 07/06) | Módulo I [ver aulas](https://github.com/opensanca/trilha-python/tree/master/python-intro)
 
 - *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
 - *Tipos de dados básicos*: números, strings, sequências (listas, tuplas e conjuntos) e dicionários
@@ -46,15 +44,15 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - *Arquivos*: leitura e escrita de arquivos e encoding.
 - *Testes*: testes unitários com o módulo unittest, asserções e mock
 
-##### Wipi (07/06 á 23/06) | Módulo II 
-- Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes 
+##### Doing (09/06 á 23/06) | Módulo II
+- Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes
 - Aula 2: herança, herança múltipla no Django e mixins
 - Aula 3: encapsulamento e polimorfismo
 - Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
 - Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
 - Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock
 
-##### Wipi (28/06 á 14/07) | Módulo III 
+##### Wipi (28/06 á 14/07) | Módulo III
 - Aula 1: Instalação do python e django, explicação do funcionamento do framework e hello world
 - Aula 2: modelos e integração com banco de dados, administração do django
 - Aula 3: function-based views, URLs e templates
@@ -64,7 +62,7 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 - Aula 7: deploy no heroku, requirements
 
 
-#####  Wipi (19/07 á 28/07) | Módulo IV 
+#####  Wipi (19/07 á 28/07) | Módulo IV
 - Aula 1: introdução à aprendizado de máquina com Python
 - Aula 2: NoSQL com MongoDB e Python
 - Aula 3: Webscraping com scrapy
@@ -73,5 +71,5 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 
 ## License
 
-[MIT | Attribution-NonCommercial-ShareAlike 4.0] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) © Opensanca 2016
+[MIT | Creative Commons Attribution-NonCommercial-ShareAlike 4.0] (https://github.com/opensanca/trilha-python/blob/master/LICENSE.md) Opensanca 2016
 
