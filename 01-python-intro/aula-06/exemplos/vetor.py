@@ -1,5 +1,7 @@
-"""
-Este módulo define um Vetor espacial.
+""" Este módulo oferece um vetor espacial e operações de vetor
+
+Fornece uma classe `Vetor` que armazena as posições x e y em uma `namedtuple`
+e funções de soma (soma_vetor) e subtração (subtrai_vetor)
 
 >>> v1 = Vetor(1, 1)
 >>> v1
