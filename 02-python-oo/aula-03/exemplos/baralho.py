@@ -1,4 +1,5 @@
 from collections import namedtuple
+from collections.abc import MutableSequence
 
 
 Carta = namedtuple('Carta', ['valor', 'naipe'])
@@ -16,3 +17,6 @@ class Baralho:
 
     def __getitem__(self, pos):
         return self.cartas[pos]
+
+    def __setitem__(self, pos, carta):
+        self.cartas[pos] = carta

@@ -1,6 +1,7 @@
 """
 Implementa um vetor bidimensional (versão 1 - mais simples)
 """
+from numbers import Real
 import math
 
 
@@ -12,6 +13,9 @@ class Vetor:
     def __repr__(self):
         return 'Vetor({!r}, {!r})'.format(self.x, self.y)
 
+    def __str__(self):
+        return '({}, {})'.format(self.x, self.y)
+
     def __abs__(self):
         return math.hypot(self.x, self.y)
 
@@ -22,10 +26,16 @@ class Vetor:
         return bool(self.x or self.y)
 
     def __eq__(self, outro):
-        return self.x == outro.x and self.y == outro.y
+        if isinstance(outro, Vetor):
+            return self.x == outro.x and self.y == outro.y
+        else:
+            return NotImplemented
 
     def __sub__(self, outro):
         return Vetor(self.x - outro.x, self.y - outro.y)
 
     def __mul__(self, scalar):
-        return Vetor(self.x * scalar, self.y * scalar)
+        if isinstance(scalar, Real):
+            return Vetor(self.x * scalar, self.y * scalar)
+        else:
+            return NotImplemented

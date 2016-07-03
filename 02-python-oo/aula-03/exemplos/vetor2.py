@@ -35,7 +35,10 @@ class Vetor:
         return math.hypot(self.x, self.y)
 
     def __add__(self, outro):
-        return Vetor(self.x + outro.x, self.y + outro.y)
+        if isinstance(outro, Vetor):
+            return Vetor(self.x + outro.x, self.y + outro.y)
+        else:
+            return NotImplemented
 
     def __bool__(self):
         return bool(self.x or self.y)
@@ -53,15 +56,6 @@ class Vetor:
     def __matmul__(self, outro):
         return self.x * outro.x + self.y * outro.y
 
-    def __neg__(self):
-        return self * -1
-
-    def __pos__(self):
-        return self
-
-    def __sub__(self, outro):
-        return Vetor(self.x - outro.x, self.y - outro.y)
-
     def __mul__(self, escalar):
         if isinstance(escalar, Real):
             return Vetor(self.x * escalar, self.y * escalar)
@@ -70,6 +64,15 @@ class Vetor:
 
     def __rmul__(self, outro):
         return self * outro
+
+    def __neg__(self):
+        return self * -1
+
+    def __pos__(self):
+        return self
+
+    def __sub__(self, outro):
+        return Vetor(self.x - outro.x, self.y - outro.y)
 
 
 class VetorMutavel(Vetor):
