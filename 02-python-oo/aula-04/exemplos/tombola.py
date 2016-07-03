@@ -1,4 +1,5 @@
 import abc
+import random
 
 
 # Python 3.5
@@ -29,8 +30,6 @@ class Tombola(abc.ABC):
 
     def inspeciona(self):
         itens = []
-        if isinstance(self.itens, list):
-            return tuple(self.itens)
         while True:
             try:
                 itens.append(self.sorteia())
@@ -47,6 +46,9 @@ class GaiolaBingo(Tombola):
 
     def carrega(self, itens):
         self.itens.extend(itens)
+
+    def mistura(self, itens):
+        random.shuffle(self.itens)
 
     def sorteia(self):
         return self.itens.pop()
