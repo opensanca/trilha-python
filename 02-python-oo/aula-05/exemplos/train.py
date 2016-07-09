@@ -1,3 +1,9 @@
+"""
+Cria uma classe trem que possui carros. O trem é iterável e cada elemento
+retornado pela iteração retorna um sring com o número do carro.
+"""
+
+
 class Train:
     def __init__(self, cars):
         self.cars = cars

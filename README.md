@@ -38,11 +38,17 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 
 ##### ~Done~ (17/05 á 07/06) | Módulo I [ver aulas](https://github.com/opensanca/trilha-python/tree/master/python-intro)
 
-- *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
-- *Tipos de dados básicos*: números, strings, sequências (listas, tuplas e conjuntos) e dicionários
-- *Sintaxe básica*: expressões aritmética, estruturas básicas de controle de fluxo, iteração e definição de funções.
-- *Arquivos*: leitura e escrita de arquivos e encoding.
-- *Testes*: testes unitários com o módulo unittest, asserções e mock
+- [Aula 1](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/aula-01/Aula%2001.ipynb): *Instalação de pacotes*: criação de ambientes virtuais, instalação de bibliotecas através do pip
+
+- [Aula 2](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/aula-02/Aula%2002.ipynb): *Tipos de dados básicos e estruturas de controle*: números, strings, for, if, else e while
+
+- [Aula 3](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/aula-03/Aula%2003.ipynb): *Estruturas de dados*: listas e tuplas
+
+- [Aula 4](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/aula-04/Aula%2004.ipynb): *Tipos de dados e formatação de strings*: `format()`, conjuntos, mapeamentos
+
+- [Aula 5](https://github.com/opensanca/trilha-python/tree/master/01-python-intro/aula-05): *Funções e Arquivos*: definição de funções, argumentos, leitura e escrita de arquivos e encoding. 
+
+- [Aula 6](https://github.com/opensanca/trilha-python/tree/master/01-python-intro/aula-05): *Módulos, scripts e testes*: como criar módulos e scripts em python, testes unitários com o módulo unittest
 
 ##### Doing (09/06 á 23/06) | Módulo II
 - Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes

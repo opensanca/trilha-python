@@ -1,3 +1,9 @@
+"""
+Cria uma classe Product para representar um produto.
+Encapsula o preço do produto definindo-o como property e cria setters e deleters.
+"""
+
+
 class Product:
     def __init__(self, name, price, description):
         self.name = name

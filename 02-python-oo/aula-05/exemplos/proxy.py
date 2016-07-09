@@ -1,3 +1,26 @@
+"""
+Implementa um Proxy que proibe acesso a atributos e métodos começados por `_`
+para _simular_ atributos protegidos. Isso é feito sobrescrevendo o método
+especial `__getattr__`, conforme visto na classe Proxy.
+
+>>> special = Special(2.5, 200)
+>>> special.size
+2.5
+>>> special._value
+200
+>>> special._protected()
+500.0
+>>> proxy = Proxy(special)
+>>> proxy.size
+2.5
+>>> proxy.public()
+500.0
+>>> proxy._protected()
+Traceback (most recent call last):
+AttributeError: O atributo não existe ou é protegido '_protected'
+"""
+
+
 class Proxy:
     def __init__(self, obj):
         self._object = obj
