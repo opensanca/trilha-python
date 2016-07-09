@@ -46,17 +46,17 @@ Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o G
 
 - [Aula 4](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/aula-04/Aula%2004.ipynb): *Tipos de dados e formatação de strings*: `format()`, conjuntos, mapeamentos
 
-- [Aula 5](https://github.com/opensanca/trilha-python/tree/master/01-python-intro/aula-05): *Funções e Arquivos*: definição de funções, argumentos, leitura e escrita de arquivos e encoding. 
+- [Aula 5](https://github.com/opensanca/trilha-python/tree/master/01-python-intro/aula-05): *Funções e Arquivos*: definição de funções, argumentos, leitura e escrita de arquivos e encoding.
 
 - [Aula 6](https://github.com/opensanca/trilha-python/tree/master/01-python-intro/aula-05): *Módulos, scripts e testes*: como criar módulos e scripts em python, testes unitários com o módulo unittest
 
 ##### Doing (09/06 á 23/06) | Módulo II
-- Aula 1: conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes
-- Aula 2: herança, herança múltipla no Django e mixins
-- Aula 3: encapsulamento e polimorfismo
-- Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
-- Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
-- Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock
+- [Aula 1](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/aula-01/Aula%2001.ipynb): conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes
+- [Aula 2](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/aula-02/Aula%2002.ipynb): herança, herança múltipla no Django e tratamento de exceções
+- [Aula 3](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/aula-03/Aula%2003.ipynb): modelo de dados do python, protocolos, métodos especiais, sobrecarga de operadores
+- [Aula 4](): python data model: sobrecarga de operadores, sequências, iteráveis, geradores
+- [Aula 5](): gerenciadores de contexto, geradores, módulo functools e operator, decoradores
+- [Aula 6](): testes automáticos: conceito, tipos de testes, asserções, mock
 
 ##### Wipi (28/06 á 14/07) | Módulo III
 - Aula 1: Instalação do python e django, explicação do funcionamento do framework e hello world
