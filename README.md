@@ -40,9 +40,9 @@ Para aproveitar todo o potencial deste curso é preciso saber programar em qualq
 - [X] [Aula 1](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/aula-01/Aula%2001.ipynb): conceito de objetos, tipagem, mutabilidade, como funciona variáveis e atribuição, classes
 - [X] [Aula 2](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/aula-02/Aula%2002.ipynb): herança, herança múltipla no Django e tratamento de exceções
 - [X] [Aula 3](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/aula-03/Aula%2003.ipynb): modelo de dados do python, protocolos, métodos especiais, sobrecarga de operadores
-- [X] [Aula 4](): python data model: sobrecarga de operadores, sequências, iteráveis, geradores
-- [X] [Aula 5](): gerenciadores de contexto, geradores, módulo functools e operator, decoradores
-- [X] [Aula 6](): testes automáticos: conceito, tipos de testes, asserções, mock
+- [X] Aula 4: python data model: sobrecarga de operadores, sequências, iteráveis, geradores
+- [X] Aula 5: gerenciadores de contexto, geradores, módulo functools e operator, decoradores
+- [X] Aula 6: testes automáticos: conceito, tipos de testes, asserções, mock
 
 ##### Wipi (28/06 á 14/07) | Módulo III
 - [X] Aula 1: Instalação do python e django, explicação do funcionamento do framework e hello world
