@@ -9,30 +9,21 @@
 Programadores iniciantes de Python que saibam programar e conheçam os conceitos de orientação a objetos
 
 ### Grade:
-* [Introdução à Python](https://github.com/opensanca/trilha-python/blob/master/01-python-intro/ementa.md) (6 aulas / 16h)
-* [Orientação a objetos em Python](https://github.com/opensanca/trilha-python/blob/master/02-python-oo/ementa.md) (6 aulas / 16h)
+* Introdução à Python (6 aulas / 16h)
+* Orientação a objetos em Python (6 aulas / 16h)
 * Desenvolvimento web com Django (6 aulas / 16h)
 * Python na prática (3 aulas / 8h)
 
 ### Carga horária total:
 Aproximadamente 60hrs (22 aulas de 2 horas e 40 minutos)
 
-### Data de realização da Trilha:
-* Toda terça e quinta das 19h30 ás 22h30 com 20min de intervalo.
-* Inicio: 17 de maio
-* Término: 28 de Julho
-
 ### Pré-requisitos
-Para aproveitar todo o potencial deste curso é preciso saber programar em qualquer linguagem como C, Java, PHP e etc...
+Para aproveitar todo o potencial deste curso é preciso saber programar em qualquer linguagem como C, Java, PHP etc.
 
 ### Como tirar dúvidas?
 * Acesse a página/aba com menção á [issues](https://github.com/opensanca/trilha-python/issues);
 * Pesquise nas issues abertas e fechadas, se a mesma dúvida já foi postada;
 * Se não foi, [crie uma nova issue](https://github.com/opensanca/trilha-python/issues/new), coloque um título que tenha a ver com a sua dúvida, e descreva-a com o maior nível de detalhes possíveis, para que possamos te ajudar :)
-
-### Chat [![Gitter](https://badges.gitter.im/opensanca/trilha-python.svg)](https://gitter.im/opensanca/trilha-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-Você pode trocar uma ideia com a galera em tempo real, para isso adicionmos o Gitter que tem essa função por aqui, caso queira tirar uma dúvida na madrugada enroscou em algo mas ainda não teve retorno lá pelo nosso canal da [issues](https://github.com/opensanca/trilha-python/issues) pode recorrer ao Gitter também, só pedimos para manter uma issue registrada pois assim outras pessoas podem ver ou até complementar o que você está enfrentando, oka? Para entrar no nosso chat, basta clicar na imagem do Gitter e mandar ver no lero lero... :stuck_out_tongue_winking_eye:
-
 
 ### Agenda:
 
