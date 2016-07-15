@@ -72,7 +72,6 @@ Session.vim
 #
 .ipynb_checkpoints/
 .venv
-*.html
 *.txt
 #### joe made this: http://goel.io/joe
 
@@ -103,3 +102,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# django folders
+media/
+db.sqlite*
