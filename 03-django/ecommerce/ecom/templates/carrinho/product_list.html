@@ -1,5 +1,17 @@
-<ul>
-    {% for product in products %}
-        <li>{{ product.name }} - {{ product.price }}</li>
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+    {% for produto in products %}
+    <div class="col-md-4 produto">
+        <a href="#">
+            <img style="height: 180px; width: 180px; display: block;"
+                 alt="{{ produto.description }}"
+                 src="http://www.placebacon.net/180/180?image={{ forloop.counter }}">
+        </a>
+        <h4>{{ produto.name }}</h4>
+        <span>R${{ produto.price }}</span>
+    </div>
     {% endfor %}
-</ul>
+    </div>
+{% endblock content %}

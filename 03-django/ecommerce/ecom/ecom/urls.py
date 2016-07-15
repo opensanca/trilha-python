@@ -20,5 +20,5 @@ from carrinho.views import hello_world_view, product_list_view
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^hello_world/$', hello_world_view),
-    url(r'^product/list/$', product_list_view),
+    url(r'^$', product_list_view),
 ]

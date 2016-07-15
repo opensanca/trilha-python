@@ -9,6 +9,6 @@ def hello_world_view(request):
 
 
 def product_list_view(request):
-    products = Product.objects.all()
+    products = Product.objects.filter(active=True)
     return render(request, 'carrinho/product_list.html',
                   {'products': products})

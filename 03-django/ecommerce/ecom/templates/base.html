@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {% block title %}Ecom - O maior e melhor e-commerce do universo {% endblock title %}
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+              integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        {% block css %}
+        {% endblock css %}
+    </head>
+    <body>
+        {% block header %}
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">ECOM</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Meu Carrinho</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        {% endblock header %}
+        <div class="container">
+            {% block content %}
+            {% endblock content %}
+        </div>
+
+        {% block footer %}
+        {% endblock footer %}
+
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+                integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        {% block js %}
+        {% endblock js %}
+    </body>
+
+</html>
