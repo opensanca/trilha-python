@@ -7,7 +7,7 @@
         <a href="#">
             <img style="height: 180px; width: 180px; display: block;"
                  alt="{{ produto.description }}"
-                 src="http://www.placebacon.net/180/180?image={{ forloop.counter }}">
+                 src="{{ produto.photo }}">
         </a>
         <h4>{{ produto.name }}</h4>
         <span>R${{ produto.price }}</span>

@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from carrinho.views import hello_world_view, product_list_view
+from carrinho.views import product_detail_view, product_list_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^hello_world/$', hello_world_view),
     url(r'^$', product_list_view),
+    url(r'^produtos/(?P<key>\d+)$', product_detail_view),
 ]
