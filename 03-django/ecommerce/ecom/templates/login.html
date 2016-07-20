@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="{% url 'login' %}" method="POST">
+    {{ form.as_p }}
+    <input class="btn btn-primary" type="submit" value="Login">
+</form>
+
+{% endblock content %}
