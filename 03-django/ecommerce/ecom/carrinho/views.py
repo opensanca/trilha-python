@@ -1,4 +1,6 @@
-from django.http import HttpResponse
+from django.contrib.auth import authenticate, login, logout
+from django.core.urlresolvers import reverse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 
 from carrinho.forms import LoginForm
@@ -13,9 +15,25 @@ def login_view(request):
     if request.method == "GET":
         form = LoginForm()
         return render(request, 'login.html', {'form': form})
-    else:
-        # pega dados do form e autentica usuário
-        pass
+    elif request.method == "POST":
+        form = LoginForm(request.POST)
+        if not form.is_valid():
+            return HttpResponse('Invalid data')
+
+        username = form.cleaned_data['username']
+        password = form.cleaned_data['password']
+        user = authenticate(username=username,
+                            password=password)
+        if not user:
+            return HttpResponse('Invalid username and/or password')
+
+        login(request, user)
+        return HttpResponseRedirect(reverse('home'))
+
+
+def logout_view(request):
+    logout(request)
+    return HttpResponseRedirect(reverse('login'))
 
 
 def product_list_view(request):
