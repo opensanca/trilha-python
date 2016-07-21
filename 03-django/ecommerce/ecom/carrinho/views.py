@@ -3,7 +3,7 @@ from django.core.urlresolvers import reverse
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 
-from carrinho.forms import LoginForm
+from carrinho.forms import LoginForm, PersonCreateForm
 from carrinho.models import Product
 
 
@@ -34,6 +34,14 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return HttpResponseRedirect(reverse('login'))
+
+
+def person_create_view(request):
+    if request.method == "GET":
+        form = PersonCreateForm()
+        return render(request, 'carrinho/person_create.html', {'form': form})
+    elif request.method == "POST":
+        pass
 
 
 def product_list_view(request):

@@ -17,6 +17,15 @@ class Product(models.Model):
         return 'Product({!r}, active={!r})'.format(self.name, self.active)
 
 
+class Person(models.Model):
+    address_street = models.CharField(max_length=256)
+    address_number = models.CharField(max_length=16)
+    address_cep = models.CharField(max_length=8)
+    address_city = models.CharField(max_length=128)
+    address_state = models.CharField(max_length=2)
+    user = models.OneToOneField(User)
+
+
 class Purchase(models.Model):
     timestamp = models.DateTimeField(default=timezone.now)
     product = models.ForeignKey(Product)

@@ -18,7 +18,12 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Meu Carrinho</a></li>
+                        {% if request.user.is_authenticated %}
+                            <li><a href="#">{{ request.user.username }}</a></li>
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                        {% else %}
+                            <li><a href="{% url 'login' %}">Login</a></li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>

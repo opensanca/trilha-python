@@ -4,7 +4,15 @@
 
 <form action="{% url 'login' %}" method="POST">
     {% csrf_token %}
-    {{ form.as_p }}
+    <div class="form-group">
+        <label>Usuário</label>
+        {{ form.username }}
+    </div>
+
+    <div class="form-group">
+        <label>Senha</label>
+        {{ form.password }}
+    </div>
     <input class="btn btn-primary" type="submit" value="Login">
 </form>
 
