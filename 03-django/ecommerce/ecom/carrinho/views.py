@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import authenticate, login, logout, make_password
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 from django.http import HttpResponse, HttpResponseRedirect
@@ -89,6 +89,7 @@ def person_create_view(request):
         if password != password_check:
             return HttpResponse('Confirmação de senha inválida')
 
+        password = make_password(password)
         user = User(username=username, password=password, email=email,
                     first_name=first_name, last_name=last_name)
         user.save()
