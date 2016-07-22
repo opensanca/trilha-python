@@ -1,4 +1,5 @@
-from django.contrib.auth import authenticate, login, logout, make_password
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.hashers import make_password
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 from django.http import HttpResponse, HttpResponseRedirect
