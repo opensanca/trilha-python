@@ -15,15 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from carrinho.views import (login_view, logout_view, person_create_view,
-                            product_detail_view, product_list_view)
+from carrinho.views import (login_view, logout_view, PersonCreateView,
+                            ProductDetailView, ProductListView)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', product_list_view, name='home'),
-    url(r'^products/(?P<key>\d+)$', product_detail_view,
+    url(r'^$', ProductListView.as_view(), name='home'),
+    url(r'^products/(?P<pk>\d+)$', ProductDetailView.as_view(),
         name='product_detail'),
     url(r'^login/$', login_view, name='login'),
     url(r'^logout/$', logout_view, name='logout'),
-    url(r'^signup/$', person_create_view, name='person_create'),
+    url(r'^signup/$', PersonCreateView.as_view(), name='person_create'),
 ]

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="{% url 'person_create' %}" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <label>Usuário</label>
+        {{ form.username }}
+    </div>
+
+    <div class="form-group">
+        <label>Senha</label>
+        {{ form.password }}
+    </div>
+
+    <div class="form-group">
+        <label>Confirme a Senha</label>
+        {{ form.password_check }}
+    </div>
+
+    <div class="form-group">
+        <label>Nome</label>
+        {{ form.first_name }}
+    </div>
+
+    <div class="form-group">
+        <label>Sobrenome</label>
+        {{ form.last_name }}
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        {{ form.email }}
+    </div>
+
+    <div class="form-group">
+        <label>Rua</label>
+        {{ form.address_street }}
+    </div>
+
+    <div class="form-group">
+        <label>Número</label>
+        {{ form.address_number }}
+    </div>
+
+    <div class="form-group">
+        <label>CEP</label>
+        {{ form.address_cep }}
+    </div>
+
+    <div class="form-group">
+        <label>Cidade</label>
+        {{ form.address_city }}
+    </div>
+
+    <div class="form-group">
+        <label>Estado</label>
+        {{ form.address_state }}
+    </div>
+    <input class="btn btn-primary" type="submit" value="Signup">
+</form>
+
+{% endblock content %}
+

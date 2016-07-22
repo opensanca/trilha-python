@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2>{{ product.name }}</h2>
+    <h2>{{ object.name }}</h2>
     <div class="col-md-4">
         <img style="height: 180px; width: 180px; display: block;" src="holder.js/180x180"
-             data-src="holder.js/180x180" alt="{{ product.description }}">
-        <p>R${{ product.price }}</p>
+             data-src="holder.js/180x180" alt="{{ object.description }}">
+        <p>R${{ object.price }}</p>
     </div>
     <div class="col-md-8">
-        {{ product.description }}
+        {{ object.description }}
     </div>
 {% endblock content %}
 

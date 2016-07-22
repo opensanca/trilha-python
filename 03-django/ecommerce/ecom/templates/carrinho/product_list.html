@@ -2,7 +2,7 @@
 
 {% block content %}
     <div class="row">
-    {% for product in products %}
+    {% for product in object_list %}
     <a href="{% url 'product_detail' key=product.pk %}">
         <div class="col-md-4 product">
             <img style="height: 180px; width: 180px; display: block;"
