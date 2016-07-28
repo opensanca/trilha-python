@@ -1,0 +1,163 @@
+
+
+
+                                Welcome!
+
+
+   1. Install Pandas and the IPython Notebook
+
+      The Anaconda distribution includes Pandas built-in:
+      http://continuum.io/downloads
+
+
+   2. Download and unzip "Pandas-Tutorial.zip" from
+
+      https://github.com/brandon-rhodes/pycon-pandas-tutorial/releases
+
+
+   3. Start the IPython Notebook and visit the "pandas-tutorial"
+      folder from inside the .zip
+
+
+
+  len(df)       series + value    df[df.c == value]
+  df.head()     series + series2  df[(df.c >= value) & (df.d < value)]
+  df.tail()     series.notnull()  df[(df.c < value) | (df.d != value)]
+  df.COLUMN     series.isnull()   df.sort('column')
+  df['COLUMN']  series.order()    df.sort(['column1', 'column2'])
+
+
+
+
+                        import sys
+                        reload(sys)
+                        sys.setdefaultencoding('utf-8')
+
+
+
+
+
+
+      http://continuum.io/downloads
+
+      https://github.com/brandon-rhodes/pycon-pandas-tutorial/releases
+
+
+
+  len(df)       series + value    df[df.c == value]
+  df.head()     series + series2  df[(df.c >= value) & (df.d < value)]
+  df.tail()     series.notnull()  df[(df.c < value) | (df.d != value)]
+  df.COLUMN     series.isnull()   df.sort('column')
+  df['COLUMN']  series.order()    df.sort(['column1', 'column2'])
+
+s.str.len()        s.value_counts() df[['column1', 'column2']]
+s.str.contains()   s.sort_index() df.plot(x='a', y='b', kind='scatter')
+s.str.startswith() s.plot(...)      df.plot(x='a', y='b', kind='bar')
+
+
+                        import sys
+                        reload(sys)
+                        sys.setdefaultencoding('utf-8')
+
+
+
+  len(df)       series + value    df[df.c == value]
+  df.head()     series + series2  df[(df.c >= value) & (df.d < value)]
+  df.tail()     series.notnull()  df[(df.c < value) | (df.d != value)]
+  df.COLUMN     series.isnull()   df.sort('column')
+  df['COLUMN']  series.order()    df.sort(['column1', 'column2'])
+
+  s.str.len()        s.value_counts()
+  s.str.contains()   s.sort_index()   df[['column1', 'column2']]
+  s.str.startswith() s.plot(...)      df.plot(x='a', y='b', kind='bar')
+
+  df.set_index('a').sort_index()        df.loc['value']
+  df.set_index(['a', 'b']).sort_index() df.loc[('v','u')]
+  df.groupby('column')                  .size() .mean() .min() .max()
+  df.groupby(['column1', 'column2'])    .agg(['min', 'max'])
+
+
+
+  "The Pink Panther"
+
+
+  brandon@rhodesmill.org
+
+
+  len(df)       series + value    df[df.c == value]
+  df.head()     series + series2  df[(df.c >= value) & (df.d < value)]
+  df.tail()     series.notnull()  df[(df.c < value) | (df.d != value)]
+  df.COLUMN     series.isnull()   df.sort('column')
+  df['COLUMN']  series.order()    df.sort(['column1', 'column2'])
+
+  s.str.len()        s.value_counts()
+  s.str.contains()   s.sort_index()   df[['column1', 'column2']]
+  s.str.startswith() s.plot(...)      df.plot(x='a', y='b', kind='bar')
+
+  df.set_index('a').sort_index()        df.loc['value']
+  df.set_index(['a', 'b']).sort_index() df.loc[('v','u')]
+  df.groupby('column')                  .size() .mean() .min() .max()
+  df.groupby(['column1', 'column2'])    .agg(['min', 'max'])
+
+  df.unstack()
+  df.stack()
+  df.fillna(value)
+  s.fillna(value)
+
+
+
+  len(df)       series + value    df[df.c == value]
+  df.head()     series + series2  df[(df.c >= value) & (df.d < value)]
+  df.tail()     series.notnull()  df[(df.c < value) | (df.d != value)]
+  df.COLUMN     series.isnull()   df.sort('column')
+  df['COLUMN']  series.order()    df.sort(['column1', 'column2'])
+
+  s.str.len()        s.value_counts()
+  s.str.contains()   s.sort_index()    df[['column1', 'column2']]
+  s.str.startswith() s.plot(...)       df.plot(x='a', y='b', kind='bar')
+
+  df.set_index('a').sort_index()        df.loc['value']
+  df.set_index(['a', 'b']).sort_index() df.loc[('v','u')]
+  df.groupby('column')                  .size() .mean() .min() .max()
+  df.groupby(['column1', 'column2'])    .agg(['min', 'max'])
+
+  df.unstack()      s.dt.year
+  df.stack()        s.dt.month
+  df.fillna(value)  s.dt.day
+  s.fillna(value)   s.dt.dayofweek
+
+
+
+  len(df)       series + value    df[df.c == value]
+  df.head()     series + series2  df[(df.c >= value) & (df.d < value)]
+  df.tail()     series.notnull()  df[(df.c < value) | (df.d != value)]
+  df.COLUMN     series.isnull()   df.sort('column')
+  df['COLUMN']  series.order()    df.sort(['column1', 'column2'])
+
+  s.str.len()        s.value_counts()
+  s.str.contains()   s.sort_index()    df[['column1', 'column2']]
+  s.str.startswith() s.plot(...)       df.plot(x='a', y='b', kind='bar')
+
+  df.set_index('a').sort_index()        df.loc['value']
+  df.set_index(['a', 'b']).sort_index() df.loc[('v','u')]
+  df.groupby('column')                  .size() .mean() .min() .max()
+  df.groupby(['column1', 'column2'])    .agg(['min', 'max'])
+
+  df.unstack()      s.dt.year       df.merge(df2, how='outer', ...)
+  df.stack()        s.dt.month      df.rename(columns={'a': 'y', 'b': 'z'})
+  df.fillna(value)  s.dt.day        pd.concat([df1, df2])
+  s.fillna(value)   s.dt.dayofweek
+
+
+
+
+
+
+                          Thanks!
+
+                      Any questions?
+
+Local variables:
+ mode:text
+ mode:page
+End:
